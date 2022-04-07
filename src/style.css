@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+/* NavBar CSS */
+.navBar {
+  color: black;
+  border-bottom: 1px solid #1d1b31;
+  text-align: center;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  background-color: #6E6896;
+}
+.navBar a img {
+  display: inline;
+  float: left;
+  margin-left:25px;
+}
+.navBar h1{
+  margin-left: 10px;
+}
+
+/* HomePage CSS */
+.homepage {
+  background-color: lightblue;
+  height: 100vh;
+  position: relative;
+  display: flex;
+}
+
+.homepage h1 {
+  color: crimson;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.homepage h3 {
+  color: rgb(136, 47, 219);
+}
+.homepage a {
+  color: rgb(136, 47, 219);
+}
+.homepage a:hover {
+  color: red;
+}
+
+/* Rules CCS */
