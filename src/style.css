@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
 /* NavBar CSS */
 .navBar {
   color: black;
@@ -13,52 +14,74 @@
   align-items: center;
   background-color: #6E6896;
 }
+
 .navBar a img {
   display: inline;
   float: left;
-  margin-left:20px;
+  margin-left: 20px;
 }
-.navBar h1{
+
+.navBar h1 {
   margin-left: 10px;
-}
-.navBar h2{
-  margin-left: 610;
 }
 
 /* HomePage CSS */
 .homepage {
-  background-color: lightblue;
-  height: 73vh;
+  background-color: rgb(99, 103, 109);
+  min-height: 100vh;
   position: relative;
   display: flex;
+  overflow: hidden;
+  width: 100%;
 }
+
+.homepage p {
+  margin-top: 25px;
+  margin-left: 50px;
+  color: fff;
+}
+
 /* Socials CSS */
-.socials{
-  background-color: #0f37eb;
+.socials {
+  background-color: rgb(68, 61, 116);
   text-align: center;
-  height: 47;
   font-size: medium;
   word-spacing: 0.5in;
-}
-.socials a{
-  color: rgb(230, 255, 5);}
-.socials a:hover{
-  color: rgba(250, 235, 215, 0.644);
-}
-/* Footer CSS */
-.footer{
-  background-color: #181258;
-  text-align: center;
-  height: 136px;
+  margin: auto;
+  padding: 15px;
   border-top: 2px solid #1d1b31;
-  align-items: center;
 }
-.footer a{
+
+.socials a {
   color: rgb(230, 255, 5);
+  text-decoration: none;
 }
-.footer a:hover{
+
+.socials a:hover {
   color: rgba(250, 235, 215, 0.644);
 }
+
+/* Footer CSS */
+.footer {
+  background-color: rgb(68, 61, 116);
+  text-align: center;
+  font-size: medium;
+  align-items: center;
+  overflow: hidden;
+  padding-bottom: 6px;
+  justify-content: space-between;
+}
+
+.footer a {
+  color: rgb(230, 255, 5);
+  text-decoration: none;
+  margin-right: 50px;
+}
+
+.footer a:hover {
+  color: rgba(250, 235, 215, 0.644);
+}
+
 /* Rules CSS */
 
 
