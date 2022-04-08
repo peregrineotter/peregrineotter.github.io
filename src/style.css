@@ -8,7 +8,6 @@
 .navBar {
   color: black;
   border-bottom: 1px solid #1d1b31;
-  text-align: center;
   height: 70px;
   display: flex;
   align-items: center;
@@ -17,34 +16,50 @@
 .navBar a img {
   display: inline;
   float: left;
-  margin-left:25px;
+  margin-left:20px;
 }
 .navBar h1{
   margin-left: 10px;
+}
+.navBar h2{
+  margin-left: 610;
 }
 
 /* HomePage CSS */
 .homepage {
   background-color: lightblue;
-  height: 50vh;
+  height: 73vh;
   position: relative;
   display: flex;
 }
-
-.homepage h1 {
-  color: crimson;
+/* Socials CSS */
+.socials{
+  background-color: #0f37eb;
   text-align: center;
-  padding-top: 50px;
+  height: 47;
+  font-size: medium;
+  word-spacing: 0.5in;
 }
+.socials a{
+  color: rgb(230, 255, 5);}
+.socials a:hover{
+  color: rgba(250, 235, 215, 0.644);
+}
+/* Footer CSS */
+.footer{
+  background-color: #181258;
+  text-align: center;
+  height: 136px;
+  border-top: 2px solid #1d1b31;
+  align-items: center;
+}
+.footer a{
+  color: rgb(230, 255, 5);
+}
+.footer a:hover{
+  color: rgba(250, 235, 215, 0.644);
+}
+/* Rules CSS */
 
-.homepage h3 {
-  color: rgb(136, 47, 219);
-}
-.homepage a {
-  color: rgb(136, 47, 219);
-}
-.homepage a:hover {
-  color: red;
-}
 
-/* Rules CCS */
+/* https://www.w3schools.com/html/html_links_colors.asp */
