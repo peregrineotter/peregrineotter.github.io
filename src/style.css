@@ -1,3 +1,6 @@
+/* https://coolors.co/palette/e6f2ff-ccdcff-b3beff-9a99f2-8b79d9-805ebf-6f46a6-60308c-511f73-431259 */
+/* https://coolors.co/palette/10002b-240046-3c096c-5a189a-7b2cbf-9d4edd-c77dff-e0aaff */
+
 * {
   margin: 0;
   padding: 0;
@@ -38,7 +41,22 @@
 .homepage p {
   margin-top: 25px;
   margin-left: 50px;
-  color: fff;
+  color: E6F2FF;
+}
+
+.homepage h3 {
+  margin-top: 25px;
+  margin-left: 50px;
+  color: E6F2FF;
+}
+
+.homepage a {
+  color: CCDCFF;
+  text-decoration: none;
+}
+
+.homepage a:hover {
+  color: B3BEFF;
 }
 
 /* Socials CSS */
@@ -53,12 +71,12 @@
 }
 
 .socials a {
-  color: rgb(230, 255, 5);
+  color: CCDCFF;
   text-decoration: none;
 }
 
 .socials a:hover {
-  color: rgba(250, 235, 215, 0.644);
+  color: B3BEFF;
 }
 
 /* Footer CSS */
@@ -73,16 +91,11 @@
 }
 
 .footer a {
-  color: rgb(230, 255, 5);
+  color: CCDCFF;
   text-decoration: none;
   margin-right: 50px;
 }
 
 .footer a:hover {
-  color: rgba(250, 235, 215, 0.644);
+  color: B3BEFF;
 }
-
-/* Rules CSS */
-
-
-/* https://www.w3schools.com/html/html_links_colors.asp */
