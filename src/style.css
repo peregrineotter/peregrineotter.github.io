@@ -106,6 +106,10 @@ nav .menu {
   font-weight: 600;
 }
 
+.center .sub_title p{
+  font-size: medium;
+}
+
 .center p {
   color: fff;
 }
@@ -251,6 +255,15 @@ footer .content .top {
 
 .top .media-icons a:nth-child(5):hover {
   color: #E1306C;
+  background: #fff;
+}
+
+.top .media-icons a:nth-child(6) {
+  background: #080808;
+}
+
+.top .media-icons a:nth-child(6):hover {
+  color: #000000;
   background: #fff;
 }
 
