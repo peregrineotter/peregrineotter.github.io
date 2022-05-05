@@ -106,8 +106,16 @@ nav .menu {
   font-weight: 600;
 }
 
-.center .sub_title p{
+.center .sub_title p {
   font-size: medium;
+}
+
+.center h1 {
+  color: #fff;
+}
+
+.center h2 {
+  color: #fff
 }
 
 .center p {
@@ -142,6 +150,33 @@ nav .menu {
 }
 
 .center .about h1 {
+  color: #fff;
+}
+
+.rules {
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: left;
+  overflow: scroll;
+}
+
+.rules h1 {
+  color: #fff;
+}
+
+.rules h2 {
+  color: #fff;
+}
+
+.rules h3 {
+  color: #fff;
+}
+
+.rules p {
   color: #fff;
 }
 
