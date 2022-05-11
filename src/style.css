@@ -92,6 +92,15 @@ nav .menu {
   width: 100%;
   padding: 0 20px;
   text-align: center;
+  color: #fff;
+}
+
+.center a {
+  color: white;
+}
+
+.center a.hover {
+  color: rgb(139, 141, 154);
 }
 
 .center .title {
@@ -106,10 +115,6 @@ nav .menu {
   font-weight: 600;
 }
 
-.center .sub_title p {
-  font-size: medium;
-}
-
 .center h1 {
   color: #fff;
 }
@@ -119,7 +124,7 @@ nav .menu {
 }
 
 .center p {
-  color: fff;
+  color: #fff;
 }
 
 .center .btns {
@@ -177,6 +182,50 @@ nav .menu {
 }
 
 .rules p {
+  color: #fff;
+}
+
+/* GCSE CSS */
+.gcse {
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.gcse a {
+  color: white;
+}
+
+.gcse a.hover {
+  color: rgb(139, 141, 154);
+}
+
+.gcse .title {
+  color: #fff;
+  font-size: 55px;
+  font-weight: 600;
+}
+
+.gcse .sub_title {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.gcse h1 {
+  color: #fff;
+}
+
+.gcse h2 {
+  color: #fff
+}
+
+.gcse p {
   color: #fff;
 }
 
